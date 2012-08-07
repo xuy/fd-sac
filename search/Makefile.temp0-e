@@ -1,0 +1,22 @@
+zero_one_pdbs_heuristic.o: pdbs/zero_one_pdbs_heuristic.cc \
+  pdbs/zero_one_pdbs_heuristic.h pdbs/../heuristic.h \
+  pdbs/../scalar_evaluator.h pdbs/../evaluator.h pdbs/../operator_cost.h \
+  pdbs/pdb_heuristic.h pdbs/util.h pdbs/../globals.h pdbs/../operator.h \
+  pdbs/../globals.h pdbs/../state.h pdbs/../state_var_t.h \
+  pdbs/../option_parser.h pdbs/../option_parser_util.h \
+  pdbs/../merge_and_shrink/shrink_strategy.h pdbs/../heuristic.h \
+  pdbs/../plugin.h pdbs/../open_lists/standard_scalar_open_list.h \
+  pdbs/../open_lists/open_list.h pdbs/../open_lists/../evaluator.h \
+  pdbs/../open_lists/../option_parser.h \
+  pdbs/../open_lists/standard_scalar_open_list.cc \
+  pdbs/../open_lists/../scalar_evaluator.h \
+  pdbs/../open_lists/open_list_buckets.h \
+  pdbs/../open_lists/open_list_buckets.cc \
+  pdbs/../open_lists/tiebreaking_open_list.h \
+  pdbs/../open_lists/tiebreaking_open_list.cc \
+  pdbs/../open_lists/alternation_open_list.h \
+  pdbs/../open_lists/../plugin.h \
+  pdbs/../open_lists/alternation_open_list.cc \
+  pdbs/../open_lists/pareto_open_list.h \
+  pdbs/../open_lists/pareto_open_list.cc pdbs/../state.h \
+  pdbs/../utilities.h
